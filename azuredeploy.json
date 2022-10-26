@@ -81,20 +81,21 @@
                     "tags": {
                         "displayName": "appsettings"
                     },
-                    "properties": {
-                        "AzureAd:Instance": "--todo--",
-                        "AzureAd:Domain": "--todo--",
-                        "AzureAd:TenantId": "--todo--",
-                        "AzureAd:ClientId": "--todo--",
-                        "AzureAd:ClientSecret": "--todo--",
-                        "AzureAd:CallbackPath": "/signin-oidc",
-                        "AzureAd:SignedOutCallbackPath": "/signout-callback-oidc",
-                        "AzureAd:SignUpSignInPolicyId": "--todo--",
-                        "IdentityProofingApi:ApiEndpoint": "https://rclapi.azure-api.net/production",
-                        "IdentityProofingApi:Resource": "d02dc52b-fec2-47b7-9088-5a01e3a4dcae",
-                        "IdentityProofingApi:SubscriptionId": "--todo--",
-                        "IdentityProofingApi:IdentityApproverIdentifier": "--todo--"
-                    }
+                  "properties": {
+                    "AzureAd:Instance": "--todo--",
+                    "AzureAd:Domain": "--todo--",
+                    "AzureAd:TenantId": "--todo--",
+                    "AzureAd:ClientId": "--todo--",
+                    "AzureAd:ClientSecret": "--todo--",
+                    "AzureAd:CallbackPath": "/signin-oidc",
+                    "AzureAd:SignedOutCallbackPath": "/signout-callback-oidc",
+                    "AzureAd:SignUpSignInPolicyId": "--todo--",
+                    "IdentityProofingApi:ApiEndpoint": "https://rclapi.azure-api.net/production",
+                    "IdentityProofingApi:Resource": "d02dc52b-fec2-47b7-9088-5a01e3a4dcae",
+                    "IdentityProofingApi:SubscriptionId": "--todo--",
+                    "IdentityProofingApi:IdentityApproverIdentifier": "--todo--",
+                    "SecurityGroup": "--todo--"
+                  }
                 }
             ]
         }
