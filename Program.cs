@@ -1,3 +1,5 @@
+#nullable disable
+
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.UI;
@@ -13,7 +15,7 @@ builder.Services.AddRCLCoreIdentitySecurityGroupServices();
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("UserAdmins", policy =>
-       policy.Requirements.Add(new GroupsCheckRequirement(new string[] { "UserAdmins" })));
+       policy.Requirements.Add(new GroupsCheckRequirement(new string[] { Environment.GetEnvironmentVariable("SecurityGroup") })));
 });
 
 builder.Services.AddRCLCoreIdentityProofingServices(optionsApi => builder.Configuration.Bind("IdentityProofingApi", optionsApi));
